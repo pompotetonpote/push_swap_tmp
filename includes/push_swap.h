@@ -6,7 +6,7 @@
 /*   By: yperonne <yperonne@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/08 13:13:14 by pompote           #+#    #+#             */
-/*   Updated: 2023/01/10 19:11:35 by yperonne         ###   ########.fr       */
+/*   Updated: 2023/01/11 15:37:08 by yperonne         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,6 @@ typedef struct s_stack
 
 t_stack		*fill_stack(int argc, char **argv);
 void		index_stack_element(t_stack *stack_a, int stack_size);
-// char		**argv_tab(char **argv);
 
 /* Sorting */
 
@@ -71,8 +70,7 @@ size_t		ft_strlen(const char *str);
 size_t		ft_strlcpy(char *dst, const char *src, size_t dstsize);
 void		*ft_calloc(size_t count, size_t size);
 int			countset(char const *str, char c);
-int			tab_len(const char **tab);
-// int			parse_long_string(char *str, char c);
+int			tab_len(char **tab);
 
 /* Operations */
 

@@ -6,7 +6,7 @@
 /*   By: yperonne <yperonne@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/10 13:42:14 by yperonne          #+#    #+#             */
-/*   Updated: 2023/01/10 19:11:13 by yperonne         ###   ########.fr       */
+/*   Updated: 2023/01/11 15:20:17 by yperonne         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,12 +61,12 @@ void	*ft_calloc(size_t count, size_t size)
 	return ((void *)ptr);
 }
 
-int	tab_len(const char **tab)
+int	tab_len(char **tab)
 {
 	int	i;
 
-	i = 0;
+	i = 1;
 	while (tab[i])
 		i++;
-	return (1);
+	return (i);
 }

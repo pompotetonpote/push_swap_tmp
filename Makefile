@@ -1,5 +1,5 @@
 CC			= gcc -g
-CFLAGS		= -Werror -Wall -Wextra -fsanitize=address
+CFLAGS		= -Werror -Wall -Wextra #-fsanitize=address
 NAME		= push_swap
 
 SRC_PATH 	= src/

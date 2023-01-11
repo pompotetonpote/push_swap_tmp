@@ -6,7 +6,7 @@
 /*   By: yperonne <yperonne@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/08 16:46:52 by pompote           #+#    #+#             */
-/*   Updated: 2023/01/10 18:55:22 by yperonne         ###   ########.fr       */
+/*   Updated: 2023/01/11 14:33:09 by yperonne         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,6 @@ t_stack	*fill_stack(int argc, char **argv)
 	}
 	return (stack_a);
 }
-
 // int	parse_long_string(char *str, char c)
 // {
 // 	int	i;
