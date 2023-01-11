@@ -6,7 +6,7 @@
 /*   By: yperonne <yperonne@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/08 16:46:52 by pompote           #+#    #+#             */
-/*   Updated: 2023/01/11 14:33:09 by yperonne         ###   ########.fr       */
+/*   Updated: 2023/01/11 16:56:05 by yperonne         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,29 +34,3 @@ t_stack	*fill_stack(int argc, char **argv)
 	}
 	return (stack_a);
 }
-// int	parse_long_string(char *str, char c)
-// {
-// 	int	i;
-
-// 	i = 0;
-// 	while (str[i])
-// 	{
-// 		if (str[i] == c && str[i + 1] != '\0')
-// 			return (1);
-// 		i++;
-// 	}
-// 	return (0);
-// }
-
-// char	**argv_tab(char **argv)
-// {
-// 	char	**tab;
-
-// 	tab = NULL;
-// 	if (parse_long_string(argv[1], ' '))
-// 	{
-// 		tab = ft_split(argv[1], ' ');
-// 		return (tab);
-// 	}
-// 	return (argv);
-// }
